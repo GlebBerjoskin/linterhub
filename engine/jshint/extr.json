@@ -3,14 +3,15 @@
     "id": "jshint",
     "name": "jshint",
     "pipeline": [
-		{
-			"cmd": "jshint",
-			"success": 2
-		}
-	],
+        {
+            "cmd": "jshint",
+            "success": 2,
+            "engine": true
+        }
+    ],
     "environment": {
-		"executable": "jshint",
-		"masks": true,
-		"version": "v2.9.5"
+        "executable": "jshint",
+        "masks": true,
+        "version": "v2.9.5"
     }
 }
