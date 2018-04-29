@@ -10,7 +10,6 @@
         }
     ],
     "environment": {
-        "executable": "jshint",
         "masks": true,
         "version": "v2.9.5"
     }
